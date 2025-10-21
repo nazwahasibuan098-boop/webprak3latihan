@@ -7,16 +7,16 @@ header{
 	width:960px;
 	float:left;
 }
-nav{
-	height:40px;
-	width:958px;
-	float:left;
-	background:#ab0505;
-	border:#ebddc5 1px solid;
-	overflow:auto;
-	margin:0px;
-	padding:0px;
+nav {
+  height:40px;
+  width:958px;
+  float:left;
+  background:#ab0505;
+  border:#ebddc5 1px solid;
+  overflow:visible;
 }
+
+
 nav ul li{
 	display:block;
 	float:left;
