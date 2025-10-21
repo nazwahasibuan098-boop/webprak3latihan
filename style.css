@@ -1,0 +1,155 @@
+#wrapper{
+	width:960px;
+	margin:auto;
+}
+header{
+	height:120px;
+	width:960px;
+	float:left;
+}
+nav{
+	height:40px;
+	width:958px;
+	float:left;
+	background:#ab0505;
+	border:#ebddc5 1px solid;
+	overflow:auto;
+	margin:0px;
+	padding:0px;
+}
+nav ul li{
+	display:block;
+	float:left;
+	padding:5px 10px 5px 10px;
+	margin:0px;
+	border-right:#ebddc5 1px solid;
+}
+nav ul li .submenu{
+	display:none;
+}
+nav ul li:hover .submenu{
+	display:block;
+	margin:0px;
+	width:100px;
+	position:absolute;
+	margin-top:5px;
+	border:#ebddc5 1px solid;
+	margin-left:-11px;
+	background:#e1e8ed;
+}
+	
+nav ul li:hover .submenu li{
+	display:block;
+	width:89px;
+	padding:5px;
+	float:left;
+	border:none;
+}
+nav ul li{
+	background:#ebddc5;
+}
+nav ul li a{
+	color:#2e4365;
+	text-decoration:none;
+}
+nav ul li a:hover{
+	text-decoration:underline;
+}
+#wrapper article{
+	width:620px;
+	float:left;
+	padding:10px;
+}
+#wrapper article #single{
+	margin:5px;
+	border:#ebddc5 1px solid;
+	padding:5px;
+	font-size:14px;
+	float:left;
+	overflow:auto;
+	text-align:justify;
+}
+#wrapper article #single #t-images{
+	width:150px;
+	height:150px;
+	float:left;
+	overflow:auto;
+	margin-right:5px;
+}
+#wrapper article #single h2{
+	margin:0px;
+	font-family:Times New Roman;
+	font-size:20px;
+	color:#96414f;
+	padding:5px;
+	border:#e3ddb3 2px solid;
+	background:#f2b33d;
+}
+#wrapper article #single #more a{
+	float:right;
+	overflow:auto;
+	border:#0f4e77;
+	background:#feffaf;
+	padding:2px 10px 2px 10px;
+	margin-bottom:10px;
+	margin-right:10px;
+	margin-top:10px;
+	text-align:center;
+	text-decoration:none;
+	color:#423f39;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+#wrapper article #single #more a:hover{
+	background:#78a2d2;
+	color:#feffaf;
+	border:#66974a 1px solid;
+}
+#wrapper aside{
+	width:300px;
+	float:left;
+	padding:10px;
+}
+#wrapper aside .widget{
+	list-style:none;
+}
+#wrapper aside .widget ul{
+	list-style:none;
+	margin-left:-40px;
+}
+#wrapper aside .widget li a{
+	text-decoration:none;
+	color:#cd5c5c;
+}
+#wrapper aside .widget li a:hover{
+	text-decoration:underline;
+}
+footer{
+	width:960px;
+	float:left;
+	background:#e59d2c;
+	color:#333230;
+}
+footer #column{
+	width:300px;
+	float:left;
+	padding:10px;
+	font-size:15px;
+}
+footer #column h2{
+	margin:0px;
+	margin-bottom:10px;
+	font-family:Cambria;
+	font-size:18px;
+	color:#6b0a00;
+	font-weight:bold;
+}
+footer #column a{
+	color:#2a5466;
+	text-decoration:none;
+}
+	
+
+	
+
+	
